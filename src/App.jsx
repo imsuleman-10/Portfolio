@@ -3,7 +3,7 @@ import {
   ArrowRight, Github, ExternalLink, Mail, MessageSquare, 
   Layout, Server, Database, Code2, ChevronRight, Menu, X 
 } from 'lucide-react';
-
+import About from './components/About';
 // --- DATA ---
 import { projects } from './data/projects';
 import Navbar from './components/Navbar';
@@ -51,7 +51,7 @@ function App() {
             </div>
           </div>
         </section>
-
+      <About />
         {/* --- 2. SKILLS SECTION (Bento Style) --- */}
         <section id="skills">
             <Skills />
