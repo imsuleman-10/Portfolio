@@ -3,6 +3,7 @@ import {
   ArrowRight, Github, ExternalLink, Mail, MessageSquare, 
   Layout, Server, Database, Code2, ChevronRight, Menu, X 
 } from 'lucide-react';
+
 // --- DATA ---
 import { projects } from './data/projects';
 import Navbar from './components/Navbar';
@@ -11,7 +12,6 @@ import ProjectCard from './components/ProjectCard';
 import ContactForm from './components/ContactForm';
 import Testimonials from './components/Testimonials';
 import About from './components/About';
-
 
 function App() {
   return (
@@ -110,7 +110,7 @@ function App() {
                 <div className="p-6 rounded-3xl bg-slate-900/40 border border-slate-800 text-center">
                     <Mail className="mx-auto mb-4 text-blue-500" />
                     <p className="text-sm font-bold text-white uppercase tracking-widest">Email</p>
-                    <p className="text-slate-400 mt-2 truncate">suleman@samstack.dev</p>
+                    <p className="text-slate-400 mt-2 truncate">sulemanzaheer09@gmail.com</p>
                 </div>
                 <div className="p-6 rounded-3xl bg-slate-900/40 border border-slate-800 text-center">
                     <MessageSquare className="mx-auto mb-4 text-emerald-500" />
@@ -120,7 +120,7 @@ function App() {
                 <div className="p-6 rounded-3xl bg-slate-900/40 border border-slate-800 text-center">
                     <Github className="mx-auto mb-4 text-indigo-500" />
                     <p className="text-sm font-bold text-white uppercase tracking-widest">GitHub</p>
-                    <p className="text-slate-400 mt-2">@SulemanZaheer</p>
+                    <p className="text-slate-400 mt-2">@imsuleman-10</p>
                 </div>
             </div>
 
