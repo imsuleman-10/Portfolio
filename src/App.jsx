@@ -3,7 +3,6 @@ import {
   ArrowRight, Github, ExternalLink, Mail, MessageSquare, 
   Layout, Server, Database, Code2, ChevronRight, Menu, X 
 } from 'lucide-react';
-import About from './components/About';
 // --- DATA ---
 import { projects } from './data/projects';
 import Navbar from './components/Navbar';
@@ -11,6 +10,8 @@ import Skills from './components/Skills';
 import ProjectCard from './components/ProjectCard';
 import ContactForm from './components/ContactForm';
 import Testimonials from './components/Testimonials';
+import About from './components/About';
+
 
 function App() {
   return (
@@ -51,7 +52,7 @@ function App() {
             </div>
           </div>
         </section>
-      <About />
+<About />
         {/* --- 2. SKILLS SECTION (Bento Style) --- */}
         <section id="skills">
             <Skills />
