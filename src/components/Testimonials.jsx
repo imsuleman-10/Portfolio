@@ -2,12 +2,12 @@ import { Quote } from 'lucide-react';
 
 const reviews = [
   {
-    name: "Sarmad Aziz",
-    role: "CEO, SAMStack",
+    name: "M Umair",
+    role: "Manager, MJ Brothers",
     content: "Suleman's ability to turn complex logic into a smooth user interface is remarkable. He handled our portal development with extreme professionalism.",
   },
   {
-    name: "John Miller",
+    name: "Saqib Javed",
     role: "E-Learning Consultant",
     content: "Exceptional work on our LMS. The automated certification logic he built saved us hundreds of hours of manual work.",
   }
