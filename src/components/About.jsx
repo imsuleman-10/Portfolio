@@ -4,8 +4,8 @@ import profileImg from '../assets/profile1.jpg';
 export default function About() {
   return (
     // Reduced padding from py-24 to py-16 to make it shorter
-    <section id="about" className="max-w-6xl mx-auto px-6 py-16 border-t border-slate-900/50">
-      <div className="grid lg:grid-cols-2 gap-10 items-center">
+    <section id="about" className="max-w-6xl mx-auto px-6 py-16 border-t mb-15 border-slate-900/50">
+      <div className="grid lg:grid-cols-2 gap-10 items-center mt-15">
         
         {/* --- Shorter Image Container --- */}
         <div className="relative group max-w-[320px] mx-auto lg:mx-0 w-full">
