@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://suleman-zaheer.web.app/$1",
+      "permanent": true
+    }
+  ]
+}
